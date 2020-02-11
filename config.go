@@ -22,7 +22,7 @@ var (
 	TemplateDir string
 )
 
-const mainIniPath = "/config/env.ini"
+const mainIniPath = "/config/mysql.ini"
 
 func init() {
 	curFilename := os.Args[0]
